@@ -1,0 +1,28 @@
+# STAFFJOBS 1.3.8-26.3
+settings:
+  update-check:
+    enabled: true
+  max-death-logs: 100
+  max-reports: 100
+  auto-save: true
+  freeze:
+    prevent-movement: true
+    prevent-interaction: true
+    prevent-attack: true
+  rollback:
+    restore-armor: true
+    restore-offhand: true
+    replace-inventory: true
+  reports:
+    allow-empty-message: false
+    notify-staff: true
+  timezone: Asia/Jakarta
+  activity-logs:
+    max-entries: 500
+  death-notifications:
+    enabled: true
+    permission: staffjobs.deathnotify
+
+  punishments:
+    max-history-per-player: 100
+    mute-message: "You are muted and cannot chat."
