@@ -25,5 +25,5 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 jar {
-    archiveFileName = "StaffJobs${version}.jar"
+    archiveFileName = "StaffJobs${version}-26.3.jar"
 }
